@@ -1,0 +1,4 @@
+# Required parts for function!
+tkinter
+cv2
+pytesseract
