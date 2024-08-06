@@ -1,5 +1,5 @@
 ('C:\\Users\\brown\\Desktop\\UMBC '
- 'stuff\\bio\\Bio-Project\\build\\countDifferences\\PYZ-00.pyz',
+ 'stuff\\Bio\\Bio-Project\\build\\countDifferences\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Users\\brown\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_compat_pickle.py',
    'PYMODULE'),
