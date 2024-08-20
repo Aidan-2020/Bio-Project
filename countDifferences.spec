@@ -5,7 +5,7 @@ a = Analysis(
     ['C:\\Users\\brown\\Desktop\\UMBC stuff\\bio\\Bio-Project\\countDifferences.py'],
     pathex=[],
     binaries=[],
-    datas=[('c:\\msys64\\mingw64\\lib\\python3.9\\site-packages/customtkinter', 'customkinter/')],
+    datas=[('C:\\Users\\brown\\Desktop\\UMBC stuff\\bio\\Bio-Project\\CustomTkinter-master/customtkinter', 'customtkinter/')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
