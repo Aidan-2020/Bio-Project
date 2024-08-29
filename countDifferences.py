@@ -28,6 +28,7 @@ class StringDifferenceCalculator:
 
         ctk.CTkButton(self.input_frame, text="Direct Input", command=self.get_input_directly).pack(side="left", padx=10, expand=True)
         ctk.CTkButton(self.input_frame, text="Read from File", command=self.get_input_from_file).pack(side="right", padx=10, expand=True)
+        ctk.CTkButton(self.input_frame, text="Take a Picture", command=self.take_picture).pack(side="left", padx=5, expand=True)
 
         self.strings_frame = ctk.CTkScrollableFrame(self.main_frame, height=300)
         self.strings_frame.pack(pady=10, fill="both", expand=True)
@@ -106,6 +107,10 @@ class StringDifferenceCalculator:
             result += "\nWarning: The input strings have different lengths."
         
         messagebox.showinfo("Result", result)
+
+    def take_picture(self):
+        # This function will be implemented later
+        messagebox.showinfo("Take a Picture", "This feature will be implemented later.")
 
     def run(self):
         self.root.mainloop()
